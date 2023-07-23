@@ -1,0 +1,226 @@
+/* Base styles for all screen sizes */
+.gambar-avatar {
+  position: relative;
+  top: 84px;
+  left: 15%;
+  border: none;
+  opacity: 0.8;
+  width: 44.7vw;
+  transform: scaleX(-1);
+}
+
+.Container-skills {
+  margin: 0;
+}
+
+.atur-page {
+  float: left;
+}
+
+.skills-container {
+  position: relative;
+  top: 150px;
+  padding-left: 800px;
+}
+
+.skill-box {
+  position: relative;
+  top: 60px;
+  right: 20%;
+  width: 560px;
+  line-height: 0.001;
+  font-size: 20px;
+}
+
+.title-skill {
+  position: absolute;
+  /* position: absolute;   */
+  color: rgb(199, 199, 199);
+}
+
+p.title-level {
+  display: none;
+  color: yellow;
+}
+
+.level-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+.level-point {
+  width: 3rem;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 0, 0, 0.479);
+  height: 2em;
+  position: relative;
+  left: 49px;
+}
+
+.filled {
+  box-shadow: 15px 15px 15px 5px rgba(129, 20, 111, 0.678);
+  background-color: rgba(247, 0, 255, 0.61);
+}
+
+.unfilled {
+  box-shadow: 15px 15px 15px 5px rgba(194, 168, 190, 0.219);
+  background-color: wheat;
+}
+
+.FRONTEND {
+  margin-bottom: -20px;
+  background-color: rgba(137, 43, 226, 0.76);
+  border: 1px solid rgba(255, 0, 0, 0.123);
+  width: 100px;
+  text-align: center;
+}
+
+/* Media queries for different screen sizes */
+
+@media screen and (max-width: 1200px) and (min-width: 1010px) {
+  /* Styles for screen sizes between 1010px and 1200px */
+  .gambar-avatar {
+    position: relative;
+    top: 150px;
+    left: 15%;
+    border: none;
+    opacity: 0.8;
+    width: 35vw;
+    transform: scaleX(-1);
+  }
+
+  .skills-container {
+    position: relative;
+    top: 150px;
+    padding-left: 540px;
+  }
+
+  .FRONTEND {
+    display: none;
+  }
+
+  .level-point {
+    width: 2rem;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 0, 0, 0.479);
+    height: 1.4em;
+    position: relative;
+    left: 49px;
+  }
+}
+
+@media screen and (max-width: 1009px) and (min-width: 920px) {
+  /* Styles for screen sizes between 920px and 1009px */
+  .gambar-avatar {
+    position: relative;
+    top: 180px;
+    left: 15%;
+    border: none;
+    opacity: 0.8;
+    width: 30vw;
+    transform: scaleX(-1);
+  }
+
+  .skills-container {
+    position: relative;
+    top: 150px;
+    padding-left: 450px;
+  }
+
+  .FRONTEND {
+    display: none;
+  }
+
+  .level-point {
+    width: 1rem;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 0, 0, 0.479);
+    height: 1.3em;
+    position: relative;
+    left: 49px;
+  }
+}
+
+@media screen and (max-width: 919px) and (min-width: 500px) {
+  /* Styles for screen sizes between 500px and 919px */
+  .gambar-avatar {
+    position: relative;
+    top: 180px;
+    left: 15%;
+    border: none;
+    opacity: 0.8;
+    width: 30vw;
+    transform: scaleX(-1);
+  }
+
+  .skills-container {
+    position: relative;
+    top: 10vw;
+    padding-left: 420px;
+  }
+
+  .level-point {
+    width: 1rem;
+    border: 1px solid red;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 0, 0, 0.479);
+    height: 1.3em;
+    position: relative;
+    left: 1vw;
+    border: 1px solid red;
+  }
+
+  .level-container {
+    margin-right: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  /* Styles for screen sizes 499px and below */
+  .gambar-avatar {
+    position: relative;
+    top: 180px;
+    left: 15%;
+    border: none;
+    opacity: 0.8;
+    width: 70vw;
+    transform: scaleX(-1);
+  }
+
+  .skills-container {
+    position: relative;
+    top: 10vw;
+    padding-left: 300px;
+  }
+
+  .FRONTEND {
+    display: none;
+  }
+
+  .level-point {
+    width: 1rem;
+    border: 1px solid red;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 0, 0, 0.479);
+    height: 1.3em;
+    position: relative;
+    left: 1vw;
+    border: 1px solid red;
+  }
+
+  .level-container {
+    margin-right: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    justify-content: center;
+  }
+}

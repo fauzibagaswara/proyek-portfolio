@@ -1,0 +1,31 @@
+.avatar {
+    position: fixed;
+    border: none;
+    overflow: hidden;
+    z-index: -2;
+    width: 400px;
+      opacity: 0.95;
+    bottom: -80px;
+left: 700px;
+  }
+  
+  .avatar.about {
+    transform: translate(-50%);
+    height: 89vh;
+  }
+  
+  .avatar.skills {
+    left: -1.5rem;
+    height: 190vh;
+    bottom: -110vh;
+    transform: translateX(0%) scale(-1);
+  }
+  
+  .shadow-overlay-skills {
+    height: 100vh;
+    width: 100vh;
+    display: block;
+    position: fixed;
+    z-index: -1;
+  }
+  

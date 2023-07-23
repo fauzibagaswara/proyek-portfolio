@@ -1,0 +1,89 @@
+
+a {
+    text-decoration: none;
+  }
+  .gta { 
+    color: wheat;
+  }
+  .List-project { 
+       left: 15%;
+    position: absolute;
+    width: 200px;
+    margin-top: 15%;
+  }
+  .meti4 , .meti5 ,.meti6 {
+    text-align: center;
+cursor: pointer;
+    border-radius: 0 3rem 3rem 0;
+     opacity: 0.7;
+    font-family: arr;
+font-weight: bold;
+font-size: 2vw;
+    position: relative;
+      margin: 8vh;
+      /* background-color: white; */
+      opacity: 0.6;
+  }
+  
+   .meti4 { 
+    width: 1000px;
+      font-size: 100px;
+color: rgba(0, 122, 223, 0.788);
+    background-image: linear-gradient(90deg,rgba(255, 255, 255, 0),purple,pink);
+   }
+
+
+
+   .meti5{ 
+    color: white;
+    background-image: linear-gradient(90deg,rgba(255, 255, 255, 0),rgba(163, 189, 16, 0.767),rgba(24, 161, 65, 0.685));
+   }
+   .meti6{ 
+    color: white;
+    background-image: linear-gradient(90deg,rgba(255, 255, 255, 0),rgba(16, 189, 108, 0.637),rgba(37, 193, 204, 0.685));
+   }
+
+.meti4:hover {
+     color: rgb(182, 123, 15);
+    background-color: rgb(0, 204, 255) ;
+}
+.meti5:hover  {
+    color: wheat;
+    background-color: rgba(255, 0, 149, 0.486) ;
+}
+.meti6:hover {
+    color: wheat;
+    background-color: rgba(0, 140, 255, 0.158) ;
+}
+
+
+@media screen and  (max-width :1150px  ) and (min-width :831px) {
+  .meti4 { 
+    width: 500px;
+      font-size: 50px;
+color: rgba(194, 10, 163, 0.788);
+    background-image: linear-gradient(90deg,rgba(255, 255, 255, 0),purple,pink);
+   }
+
+   .List-project { 
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    top: 100px;
+}
+}
+@media screen  and (max-width:830px){
+  .meti4 { 
+    width: 400px;
+      font-size: 40px;
+color: rgba(154, 194, 10, 0.788);
+    background-image: linear-gradient(90deg,rgba(255, 255, 255, 0),purple,pink);
+   }
+
+  .List-project { 
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    top: 150px;
+}
+}

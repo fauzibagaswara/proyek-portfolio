@@ -1,0 +1,61 @@
+.Content-personal  { 
+  float: right;
+  display: flex;
+flex-direction: column;
+  margin-top: -25%;
+  margin-right: 10em;
+}
+.atur{
+
+  margin: 10px;
+}
+.merpachuk-solid { 
+  box-shadow: 15px 15px 15px 5px rgba(188, 15, 223, 0.459);
+
+  
+  margin-top: 20px;
+  width: 250px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: antiquewhite;
+    border: 1px solid  pink;
+    border-radius: 20px;
+    background-color: rgba(247, 0, 255, 0.76);
+    opacity: 0.8;
+  
+}
+.gta-solid { 
+
+   opacity: 0.7;
+    font-size: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.solid-item {
+  color: wheat;
+  width: 200px; /* Nilai lebar elemen. Sesuaikan dengan kebutuhan. */
+  font-family: 15em;
+  /* Jika ingin teks tidak keluar dari elemen, tambahkan properti berikut */
+  white-space: normal; /* Text wrapping */
+  word-break: break-all; /* Line break */
+}
+
+
+@media screen  and (max-width :1255px) {
+  .merpachuk-solid { 
+    margin-top: 5px;
+    width: 170px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 30px;
+      color: antiquewhite;
+      border: 1px solid  pink;
+      border-radius: 20px;
+      background-color: rgba(6, 71, 209, 0.76);
+      opacity: 0.8;
+    
+  }
+  .gta-solid {
+    opacity: 0.7;
+     font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+}

@@ -1,0 +1,52 @@
+.nav { 
+    align-items: flex-start;
+      position: fixed;
+      display: flex;
+      top: 2.5em;
+      left: 45%;
+}
+
+img { 
+    
+          border: 2px solid rgba(255, 0, 191, 0.521) ;
+    width:110%;
+      
+}
+
+.nav-about { 
+     transform:  translate(-1.56em);
+}
+.nav-skills { 
+    transform:  translate(-2.56em);
+}
+.nav-porjects { 
+    transform:  translate(-2.56em);
+}
+.nav-contact{ 
+    transform:  translate(-3.56em);
+}
+
+a { 
+
+      width: 3.125rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    align-items: center;
+    gap: 1.rem;
+    padding: 0.5rem;
+}
+
+.page-title{ 
+font-size: 0.76rem;
+color: wheat;
+cursor: pointer;
+}
+.nav-link { 
+
+    opacity: 0.8;
+
+}
+.nav-link.current { 
+    opacity: 1;
+}

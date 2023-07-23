@@ -1,0 +1,46 @@
+#playerStats{ 
+
+    width: 112rem;
+    height: 4rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 3rem;
+    left: 3rem;
+
+}
+
+
+h1{
+    
+    color: white;
+    font-size: 1em;
+    margin: 0;
+
+    
+}
+
+h2{
+    color: white;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+#playerStats__lines { 
+align-items: center;
+    display: flex;
+}
+#playerstats__lines__thick { 
+    display: block;
+    height:5px;
+background-color: rgb(255, 0, 106);
+width: 12rem;
+
+    }
+#playerStats__lines__thin { 
+
+    display: block;
+    background-color: aliceblue;
+    width: 11em;
+    height: 5px;
+}
